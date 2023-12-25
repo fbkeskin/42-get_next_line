@@ -1,2 +1,28 @@
-# 42-get_next_line
-This project is about programming a function that returns a line read from a file descriptor.
+# Get Next Line
+
+![image](https://github.com/fbkeskin/42-get_next_line/assets/92950254/14635ae2-dcf6-4f88-9eef-f7445f1e2614) 
+
+
+## Status
+Bitirme Tarihi: 25/12/2023. Grade: 100/125.
+
+
+## Introduction
+Bu proje, belirtilen dosya tanımlayıcısından her çağrıldığında bir satır döndüren bir fonksiyon oluşturmayı hedefler.
+
+Uygulanacak fonksiyona ``get_next_line`` adı verilir ve fonksiyon prototipi aşağıdaki gibidir:
+```C
+char *get_next_line(int fd);
+```
+* Input Parameters
+
+Fonksiyon, yalnızca açık dosyanın integer ``fd`` değerini veya  ``fd = 0`` ise standart girdiyi alır.
+* Return Values
+
+Olası 2 return değeri vardır:
+
+| Return Value | Description |
+| :----------: | :---------: |
+| char * | Fonksiyon tarafından okunan satırı içeren array |
+| (null) | Bir hata veya EOF'ye(End Of File) ulaşılma durumu |
+
