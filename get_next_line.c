@@ -29,7 +29,7 @@ static int	find_next_line(char *arr)
 	return (i);
 }
 
-static char	*read_a_line(int fd, char *arr)
+static char	*read_lines(int fd, char *arr)
 {
 	int		bytes_read;
 	char	buff[BUFFER_SIZE + 1];
@@ -98,7 +98,7 @@ char	*get_next_line(int fd)
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (0);
-	arr = read_a_line(fd, arr);
+	arr = read_lines(fd, arr);
 	line = get_a_line(arr);
 	arr = control_line(arr);
 	return (line);
