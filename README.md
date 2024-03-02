@@ -1,8 +1,6 @@
 # Get Next Line
 
 ![image](https://github.com/fbkeskin/42-get_next_line/assets/92950254/14635ae2-dcf6-4f88-9eef-f7445f1e2614) 
-![image](https://github.com/fbkeskin/42-get_next_line/assets/92950254/14771bd6-a4dc-4873-b455-59aa12445aa7)
-
 
 
 ## Status
